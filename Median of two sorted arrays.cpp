@@ -1,5 +1,3 @@
-#include<bits\stdc++.h>
-using namespace std;
 double mergeAndSort(vector<int> &num1, vector<int> &num2){
     vector<int> margedArr;
     int i=0, j=0;
@@ -33,12 +31,3 @@ double mergeAndSort(vector<int> &num1, vector<int> &num2){
     }
 }
 
-int main(){
-    vector<int> num1={1,3,5,7};
-    vector<int> num2={2,4,6,8};
-    
-    double median=mergeAndSort(num1,num2);
-    cout<<median;
-
-    return 0;
-}
